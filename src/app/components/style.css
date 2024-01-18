@@ -1,0 +1,58 @@
+/* style.css */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+.btn {
+   margin: 10px;
+   height: 30px;
+   width: 200px;
+   margin-bottom: 15px;
+   border-radius: 5px;
+   font-size: 1rem;
+   font-weight: bold;
+   /* border: 50px; */
+}
+
+  .accordian {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+ .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+ }
+
+ .title h3{
+    margin: 0;
+ }
+
+ .content{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0;
+ }
+
+ .icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+ }
+
+ 
